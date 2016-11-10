@@ -1,0 +1,45 @@
+Zappa London   starting up!
+This version was compiled on Jan 25 2008 at 18:26:11.
+Flags: LINUX SMP(512) NUMA SUPERCOMPUTER NALIMOV
+
+parse_options_file(): couldn't open zappa.ini, using defaults.
+CPU0 starting.
+CPU1 starting.
+hash_table::resize():   Resized hash table "Transposition Table 0" to 67108864 bytes. (1048576 entries of 64 bytes)
+hash_table::resize():   Resized hash table "Transposition Table 1" to 67108864 bytes. (1048576 entries of 64 bytes)
+hash_table::resize():   Resized hash table "King hash 0" to 8388608 bytes. (131072 entries of 64 bytes)
+hash_table::resize():   Resized hash table "King hash 1" to 8388608 bytes. (131072 entries of 64 bytes)
+hash_table::resize():   Resized hash table "Pawn hash 0" to 2097152 bytes. (32768 entries of 64 bytes)
+hash_table::resize():   Resized hash table "Pawn hash 1" to 2097152 bytes. (32768 entries of 64 bytes)
+Setting Clock: fixed time per move of 1.000s
+r n b q k b n r 
+p p p p p p p p 
+- - - - - - - - 
+- - - - - - - - 
+- - - - - - - - 
+- - - - - - - - 
+P P P P P P P P 
+R N B Q K B N R 
+
+WQC:1 WKC:1 BQC:1 BKC:1 Turn:WHITE EP:0
+MB:     0 WPC: 7 BPC: 7 HM:0 HKL:22E35B22 HKH:7716EAE1
+
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+
+Book: (0 entries / 0 bytes / 1e-06s)
+Book: No move selected.
+
+1. d2-d4 d7-d5 2. Bc1-f4 e7-e6 3. e2-e3 Bf8-b4 4. c2-c3 Bb4-d6 5. Bf4xd6 Qd8xd6 
+ = (0.10)	Depth: 8/20	00:00:00.29	72kN (244 KN/s, 63 splits, 5 aborts)
+1. d2-d4 d7-d5 2. Bc1-f4 e7-e6 3. e2-e3 Bf8-b4 4. c2-c3 
+ = (0.10)	Depth: 8/20	00:00:00.54	137kN (253 KN/s, 117 splits, 8 aborts)
+
+Count: Time: 1.007s, Nodes: 275900 Qnodes: 201794[73.1%][44.1%], NPS: 274K
+Hash:  TProbes: 275886[100.0%] TPings: 61522[22.3%] THits: 32707[11.9%] TUsed: 213959[2.6%]
+EHash: KHits 158408[78.0%] PHits 8040[18.0%] POverall: 166448[81.9%]
+Exts:  Check: 928 Singular: 2 Mate: 0 One-rep: 0 IID: 0[0.0%]
+TB:    Probes: 0 Hits: 0[0.0%]
+Idle:  CPU0: 0.002 CPU1: 0.002
+
+White: used 0.000 seconds, now 0.000 remaining
+Closing remote connection.

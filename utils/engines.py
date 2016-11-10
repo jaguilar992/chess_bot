@@ -1,0 +1,15 @@
+ENGINES=[
+"arasan",
+"cinnamonE2",
+"fruit",
+"gaviota",
+"ippolit",
+"ivanhoe",
+"komodo8",
+"octochess",
+"pawny",
+"rocinante",
+"stockfish",
+"toga",
+"zappa",
+]

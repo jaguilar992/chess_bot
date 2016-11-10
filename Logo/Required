@@ -1,0 +1,5 @@
+sudo pip3 install telebot
+sudo pip3 install python-chess
+
+modificar chess/__init__.py
+	  chess/pgn.py #Castling
